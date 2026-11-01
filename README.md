@@ -1,5 +1,15 @@
 # rk3-coreaudio
 
+> **Personal maintained fork:** the default branch combines upstream latency
+> [PR #1](https://github.com/mihaimetal/rk3-coreaudio/pull/1) with a tested
+> engine timeout lifetime fix, submitted separately as
+> [PR #2](https://github.com/mihaimetal/rk3-coreaudio/pull/2).
+> [`installed-2026-10-31`](https://github.com/jbuchanan/rk3-coreaudio/tree/installed-2026-10-31)
+> records the installed source revision. Offline tests and installation checks
+> pass; sustained hardware operation on this rig remains unverified.
+> Original project: [mihaimetal/rk3-coreaudio](https://github.com/mihaimetal/rk3-coreaudio).
+
+
 A userspace **macOS audio + MIDI driver for the Native Instruments RigKontrol 3**
 (USB VID `0x17cc` / PID `0x1940`), built for Apple Silicon.
 
